@@ -30,11 +30,24 @@
   padding: 20px;
 }
 
-.Search {
-  margin-bottom: 20px;
+.tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.Search {
+  padding: 5px;
+}
+
 l̥ .Search > input[type="text"] {
   width: 300px;
+  padding: 5px;
+}
+
+.filter-btn {
+  padding: 5px;
+  cursor: pointer;
 }
 
 .res-card-container {
