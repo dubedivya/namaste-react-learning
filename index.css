@@ -14,12 +14,13 @@
   list-style-type: none;
 }
 
-.nav-items > ul > li {
+.nav-link {
   padding: 10px;
   margin: 10px;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .login-btn {
@@ -93,4 +94,44 @@ l̥ .Search > input[type="text"] {
   margin: 8px;
   padding: 15px;
   background-color: #f0f0f0;
+}
+
+/* Restaurant Details Page */
+.restaurantInfoWrapper {
+  max-width: 800px;
+  min-height: 800px;
+  margin: 20px auto 0;
+}
+
+.info-box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+
+.item-info {
+  margin-right: 75px;
+}
+
+.item-name {
+  margin-bottom: 10px !important;
+}
+
+.item-price {
+  margin: 0 !important;
+}
+
+.menu-item-img {
+  width: 118px;
+  height: 96px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 6px;
 }
